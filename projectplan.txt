@@ -1,0 +1,15 @@
+﻿Beskrivelse:
+Applikasjonen samler dine eksamens karakterer i forskjellige emner og gir ut et snitt basert på dette. Det vil også være mulig å legge til forskjellige øvinger som er gjort, med kommentarer til hver, ønskelig skal det kunne lastes opp filer/bilder med øvingene. I tillegg skal det kunne være mulig å lage egne tester i forskjellige emner. Målet med applikasjonen er å gi brukerne bedre oversikt over karakterer, snitt, øvinger og pensum.
+Applikasjonen vil også ha feilhåndtering rundt input av data, samt lesing og skriving til fil. 
+
+Grunnklasser:
+Applikasjonen vil ha flere klasser. Jeg ser for meg en egen klasse som er eksamen, hvor eksamen har objekter av forskjellige emner. Emner klassen vil kunne bli brukt også seinere når de er koblet opp til øvinger og quizer, som er to klasser for seg selv.
+I tillegg vil det være minimum én klasse som tar seg av utregningen av snittet. Ettersom det også er krav om lesing og skriving til fil vil det være en egen klasse som håndterer dette.
+
+
+Filbehandling:
+Slik som eksamenskarakterer lagt inn med emner vil bli lagret, dette gjelder også for øvinger og quizer lagt inn. Dette vil da også bli lest opp fra fil når applikasjonen åpnes. Snittet vil ikke bli lastet ned, men heller kalkulert utfra hentet data. Tidligere quizsvar vil heller ikke bli lastet ned og lagret.
+
+
+Testing:
+Ettersom applikasjonen inneholder en god del filer vil det ikke lønne seg å teste alle klassene hver for seg da de er koblet sammen, men heller teste klassene som implementerer de andre klassene.  
